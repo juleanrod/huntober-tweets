@@ -50,6 +50,4 @@ function fix(s) {
     return result.join('');
 } 
 
-console.log("input: PR0-T1P #hqB: 1T'5 N1C3 T0 5AY H3770.")
-let result = fix("PR0-T1P #hqB: 1T'5 N1C3 T0 5AY H3770.");
-console.log("output:", result);
+export default fix;
