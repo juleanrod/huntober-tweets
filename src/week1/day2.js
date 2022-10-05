@@ -3,9 +3,10 @@ function aBitOfAMess(s) {
     
     let idxLastC = s.indexOf('c');
     let afterCatCleanup = s.substr(idxLastC + 1);
-    let afterKidCleanup = afterCatCleanup.replace(/Eek/g, '');
-    let reversed = afterKidCleanup.split('').reduce((acc, curr) => curr+acc, '');
-    let messageKeys = reversed.split('v').map(subs => subs[0]);
+    let afterKidCleanup = afterCatCleanup.replace(/Eek!/g, '');
+    let reversed = afterKidCleanup.split('').reduce((acc, curr) => curr + acc, '');
+    let messageKeys = reversed.split('v').map(subs => subs[0]).slice(1);
+
     return messageKeys;
 }
 
