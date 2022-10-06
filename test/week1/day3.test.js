@@ -1,4 +1,4 @@
-import giveItSomeSpace from "../../src/week1/day3";
+import { giveItSomeSpace } from "../../src/week1/day3";
 import { describe, expect, it } from "vitest";
 
 describe("#giveItSomeSpace", () => {
