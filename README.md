@@ -210,3 +210,53 @@ Feel free to use JavaScript's built-in String methods.
     Send me a DM of the puns that made the cut on Twitter, and go ahead and
     save the final count to use tomorrow. Thanks!
 </details>
+
+<details>
+<summary><a href="https://blog.barbaralaw.me/huntober-2022-day-6">The Challenge - Day 6</a></summary>
+
+    Thanks for all your help yesterday, you guys are cool cats! Today's challenge
+    will have you removing decoy characters from a string.
+
+    Write a function that, when given a non-empty string, and positive integer X,
+    removes every Xth character from the string. Counting should begin from the
+    first element in the string and should continue in that pattern until the end
+    of the string.
+
+    For example:
+
+        -For the string below and 4 "Thies its H alltowe!en!? Th#is Tis
+        GHalolomeen$!" -remove decoy strings "This is Halloween! This is
+        Halloween!"
+
+        -For the string below and 5 "The LBachyelor^ is ma tehrrib le tpelev!isioOn
+        sh8ow." -remove decoy strings and preach 🙌 "The Bachelor is a terrible
+        television show."
+
+    🧩 Start Putting it Together
+
+    Tomorrow is day 7 of 7, and you'll be receiving a final function assignment as
+    well as the task of putting all of your other functions from the week together
+    in sequence.
+
+    If you like, you can get started on piecing together your functions today.
+    Please remember that the functions must be performed on the provided string in
+    order. If you do things out of order it will get messy very fast.
+
+    It is totally up to you how you want to organize your code. Some may choose to
+    create a master decoding function that calls each helper function as needed,
+    while others may prefer to chain the function calls separately. Up to you.
+
+    Note: Day 2 and Day 5 were side-projects, and their real purpose was to provide
+    you with inputs for this final decoding. Day 2's key characters and Day 5's
+    final count will be used as arguments for Day 3 and Day 6's functions,
+    respectively.
+
+    Here's the encrypted string for the week, enjoy!
+    https://blog.barbaralaw.me/huntober-2022-day-6
+
+    encryptedMsg =
+    "e!!Igv)t5lltBcvbdeDH3dVw!OOtI#Aa.ZMDu7WYpP^VVjDc4I50iv#ylhgmQfs"
+
+    Do any of you have any guesses about what the message could be? I think it'll
+    stay unsolved until tomorrow, but who knows?
+</details>
