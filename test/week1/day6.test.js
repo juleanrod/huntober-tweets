@@ -2,15 +2,15 @@
 import removeDecoy from "../../src/week1/day6"
 import { describe, expect, it } from "vitest";
 
-// describe("#removeDecoy", () => {
+describe("#removeDecoy", () => {
 
-//     let string = "Thies its H alltowe!en!? Thies its H alltowe!en!? ";
-//     let int = 4;
+    let string = "Thies its H alltowe!en!? Th#is Tis GHalolowmeen$!";
+    let int = 4;
 
-//     it("given a string=S,int=X returns a string where every Xth term has been removed", () => {
-//         expect(removeDecoy(string, int)).toBe("This is Halloween! This is Halloween!");
-//     });
-// });
+    it("given a string=S,int=X returns a string where every Xth term has been removed", () => {
+        expect(removeDecoy(string, int)).toBe("This is Halloween! This is Halloween!");
+    });
+});
 
 describe("#removeDecoy", () => {
 
