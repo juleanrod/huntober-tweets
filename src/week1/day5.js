@@ -1,3 +1,4 @@
+import { test } from "vitest";
 import { getDataFromFile } from "./day3.js";
 
 const data = getDataFromFile('bestTitlesEver.txt');

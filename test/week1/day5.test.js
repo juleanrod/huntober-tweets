@@ -7,7 +7,7 @@ describe("#catThemedPunFilter", () => {
     
     it("returns an array of key characters for the next challenge", () => {
         expect(titles.filter(title => catThemedPunFilter(title) === true))
-        .toStrictEqual( ['Teenage Mewtant Ninja Turtles','Rick & Meowty']);
+        .toStrictEqual( ['Teenage Mewtant Ninja Turtles','Rick & Meowty', "Mewster Rogers' Neighborhood"]);
     });
 
 });
