@@ -10,11 +10,11 @@ describe("#swapToInverse", () => {
     });
 });
 
-describe("#letterSwap", () => {
+describe("#swapToInverse", () => {
 
     let s = "0 MFNYVI LI KFMXGFZGRLM XSZMTVH";
 
     it("Swaps each letter of the alphabet to its inverse", () => {
-        expect(swapToInverse(s)).toBe("Example: 0 number or punctuation changes");
+        expect(swapToInverse(s)).toBe("0 number or punctuation changes");
     });
 });
