@@ -28,16 +28,3 @@ export function moveDown(value, matrix) {
 
     return matrix;
 }
-
-const test = [['a', 'h', 'c'], ['d', 'b', 'i'], ['g', 'e', 'f']];
-
-console.log(moveDown('a', test));
-console.log(moveUp('a', test));
-console.log(moveDown('a', test));
-console.log(moveDown('a', test));
-console.log(moveDown('a', test));
-// console.log(moveUp('f', test));
-// console.log(moveUp('f', test));
-// console.log(moveUp('f', test));
-// console.log(moveUp('a', test));
-// console.log(moveDown('a', test));
