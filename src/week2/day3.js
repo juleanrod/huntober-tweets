@@ -1,24 +1,8 @@
 export default function moveThingsAround(array) {
     
-    let j = 0;
-    for(let i = 0; i < array.length; i++) {
-        let curr = array[i];
-        if(curr.indexOf('a') > 0) {
-            array[i] = array[j];
-            array[j] = curr; 
-            j++;
-        } 
-    }
+    let bucket1 = array.filter((x) => { return x.includes('a') });
+    let bucket2 = array.filter((x) => { return x.length <= 3 });
+    let bucket3 = array.filter((x) => { return x.length > 3 && !x.includes('a')});
 
-    let temp = [];
-    for(let i = j; i < array.length;) {
-        let curr = array[i];
-        if(curr.length <= 3){
-            i++;
-        } else {
-            array.splice(i, 1);
-            temp.push(curr);
-        }
-    }
-    return array.concat(temp);
+    return bucket1.concat(bucket2).concat(bucket3);
 }

@@ -5,7 +5,7 @@ const test = ['hi', 'hello', 'howdy', 'hola', 'hej', 'hallo', 'heyyy'];
 
 describe("#moveThingsAround", () => {
 
-    it(``, () => {
-        expect(moveThingsAround(test)).toStrictEqual(['hola', 'hallo', 'hi', 'hej', 'howdy', 'hello', 'heyyy']);
+    it(`moves any entries containing the letter 'a' to the front, and then move any entries that have over 3 characters to the back`, () => {
+        expect(moveThingsAround(test)).toStrictEqual(['hola', 'hallo', 'hi', 'hej', 'hello', 'howdy', 'heyyy']);
     });
 });
