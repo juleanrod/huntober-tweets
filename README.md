@@ -500,3 +500,69 @@ built-in Array methods.
     See you tomorrow!
 
 </details>
+
+<details>
+<summary><a href="https://blog.barbaralaw.me/huntober-2022-day-1">The Challenge - Day 1</a></summary>
+
+    This week has only 6 days of challenges, and this is day 6. Ready to mix it up
+    and put those array functions to good use? I hope so!
+
+    Today you'll be plugging in your functions to a skeleton react project to
+    create a sliding puzzle game. Remember those things? I've added comments to the
+    project Codepen, but before you click over there let's go over some key tasks
+    and notes.
+
+    Here is the Codepen for the project: https://codepen.io/blawblawLaw/pen/xxjMNrN
+
+    You'll see 3 files: html, css, and js already over there. Please do the
+    following:
+
+    Fork the Codepen if it didn't automatically Add a link to your Github or
+    Twitter to the footer in the html file Insert your daily functions where noted
+    in the js file Note that they need specific names and parameters Remember to
+    insert any noted code from the comment within the functions Play your game! Are
+    there bugs? No worries, debug away This is my first time having people
+    blind-build functions to plug into a project, so if you get stuck feel free to
+    reach out! It could be that I need to modify the instructions.
+
+    I want to point out that I did call it a skeleton project because it is! Feel
+    free to make it your own and add styles or content. Personally, I want to
+    investigate sprites and try that out for the individual tiles so that I can
+    easily use any square image and have a grid size selector.
+
+</details>
+
+# Week 3
+This week we'll be nurturing our inner code weenies and working on bringing up
+the quality of code and work. Remember, be proud of what you create but always
+be open to improvement!
+
+<details>
+<summary><a href="https://blog.barbaralaw.me/huntober-2022-day-17">The Challenge - Day 1</a></summary>
+
+    Today's challenge is to simplify the example function below based on what we've
+    discussed today. I also challenge you to look at some recent functions you've
+    written and apply these same principles to those!
+
+    function myExampleFunction(arr) {
+        if (arr != null) {
+            if (arr.length !== 0) {
+                if (arr[0].length !== 0) {
+                    if (arr.length > 10) {
+                        arr.push('maximum')
+                    } else if (arr.length === 10) {
+                        arr.push('maximum')
+                    } else {
+                        if (arr[0] === 'must be maximum') {
+                            arr.push('failure')
+                        } else if (arr[0] === 'flexible') {
+                            arr.push('success')
+                        }
+                    }
+                }
+            }
+        }
+        return arr
+    }
+
+</details>
