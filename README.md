@@ -502,7 +502,7 @@ built-in Array methods.
 </details>
 
 <details>
-<summary><a href="https://blog.barbaralaw.me/huntober-2022-day-1">The Challenge - Day 1</a></summary>
+<summary><a href="https://blog.barbaralaw.me/huntober-2022-day-1">The Challenge - Day 6</a></summary>
 
     This week has only 6 days of challenges, and this is day 6. Ready to mix it up
     and put those array functions to good use? I hope so!
